@@ -182,6 +182,19 @@ body {
   
   }
 }
+@media (max-width: 800px){
+  .columna h2 {
+    flex-direction: columna;
+  
+  }
+}
+@media (max-width: 800px){
+  .columna p {
+    flex-direction: columna;
+  
+  }
+}
+
 .nombre-empresa {
     font-size: 2.2em;
     margin: 40px 0;
