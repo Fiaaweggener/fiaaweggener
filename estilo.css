@@ -184,13 +184,13 @@ body {
 }
 @media (max-width: 800px){
   .columna h2 {
-    flex-direction: columna;
+    flex-direction: columna h2;
   
   }
 }
 @media (max-width: 800px){
   .columna p {
-    flex-direction: columna;
+    flex-direction: columna p;
   
   }
 }
