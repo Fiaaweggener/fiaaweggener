@@ -176,7 +176,7 @@ body {
   color:black;
   line-height: 1.6;
 }
-@media (max-width: 768px){
+@media (max-width: 800px){
   .columna {
     flex-direction: columna;
   
