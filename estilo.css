@@ -178,8 +178,8 @@ body {
 }
 @media (max-width: 768px){
   .columna {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: columna;
+  
   }
 }
 .nombre-empresa {
