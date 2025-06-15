@@ -177,20 +177,8 @@ body {
   line-height: 1.6;
 }
 @media (max-width: 800px){
-  .columna {
-    flex-direction: columna;
-  
-  }
-}
-@media (max-width: 800px){
-  .columna h2 {
-    flex-direction: columna h2;
-  
-  }
-}
-@media (max-width: 800px){
-  .columna p {
-    flex-direction: columna p;
+  .publicidad  {
+    flex-direction: publicidad;
   
   }
 }
