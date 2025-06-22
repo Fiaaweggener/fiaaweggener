@@ -176,12 +176,6 @@ body {
   color:black;
   line-height: 1.6;
 }
-@media (max-width: 800px){
-  .publicidad  {
-    flex-direction: publicidad;
-  
-  }
-}
 
 .nombre-empresa {
     font-size: 2.2em;
@@ -221,4 +215,23 @@ body {
   font-size: 8em; /* En PC */
   font-weight: bold;
   margin: 80px 0;
+}
+@media (max-width: 600px) {
+  body {
+    font-size: 14px; /* Fuente más pequeña en móviles */
+    padding: 10px;   /* Menos padding en móviles */
+  }
+  .container {
+    width: 100%; /* La contenedor ocupa el 100% del ancho en pantallas pequeñas */
+  }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  body {
+    font-size: 15px;
+  }
+}
+@media (min-width: 901px) {
+  body {
+    font-size: 18px;
+  }
 }
