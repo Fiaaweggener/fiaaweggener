@@ -222,8 +222,6 @@ body {
   display:flex; 
   flex-direction:column; 
   gap:20px; 
-  padding:16px; 
-  max-width:100%; 
   }
 @media (min-width: 768px) {
   .container {
