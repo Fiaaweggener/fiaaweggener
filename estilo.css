@@ -23,14 +23,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 40px; 
+  padding: 0 20px; 
 }
  
 
 
 /* Logo a la izquierda */
 .logo {
-  width: 100px;
+  width: 80px;
   height: auto;
   
 }
@@ -42,10 +42,20 @@ header {
 }
   
 .nombre-empresa {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
-  margin: 80px 0;
+  margin: 40px 0;
   }
+@media (min-width: 600px) {
+  .nombre-empresa {
+    font-size: 4em;
+  }
+}
+@media (min-width: 992px) {
+  .nombre-empresa {
+    font-size: 6em;
+  }
+}
 
 .nav ul{
   list-style-type: none;
@@ -53,14 +63,34 @@ header {
   padding: 0; 
 }
 .nav li{
-  display: inline; 
-  margin: right 20px;
+  display: inline-block;
+  margin-right: 15px;
 
 }
+@media (max-width: 600px) {
+  .nav li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
 .nav a{
   color: white; 
   text-decoration: none;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
 .about,.menu{
   padding: 10px; 
 }
