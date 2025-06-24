@@ -40,6 +40,16 @@ header {
    font-size: 1.2em;
   margin-top: 10px;
 }
+<style>
+  .telefono {
+    display: none;
+  }
+</style>
+
+<div class="telefono">
+  <p>Tel: 3496558218</p>
+</div>
+
   
 .nombre-empresa {
     font-size: 2em;
