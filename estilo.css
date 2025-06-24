@@ -321,4 +321,14 @@ img {
   max-width: 100%;
   height: auto;
 }
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente */
+  justify-content: center; /* Centra verticalmente */
+  height: 300px; /* Ajusta según el alto que desees */
+  background-color: rgba(0, 0, 0, 0.5); /* opcional para contraste */
+  text-align: center;
+}
 
